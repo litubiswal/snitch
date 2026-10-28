@@ -20,3 +20,7 @@ const userSchema = new mongoose.Schema({
         enum:["user","seller"]
     }
 })
+
+const userModel = mongoose.model("User",userSchema);
+
+export default userModel;

@@ -1,3 +1,4 @@
 npm init -y
 npm i express mongoose dotenv
 npm i -D nodemon
+npm i express-validator
